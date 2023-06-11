@@ -1,0 +1,381 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter';
+    background-color: #FFF;
+}
+@font-face {
+    font-family:'Inter';
+    src: url(../fonts/Inter/Inter.ttf)
+}
+
+
+.p-color-light{
+    color: rgb(226, 224, 224);
+}
+
+/*---  Cofigurações da Nav-Bar  ---*/
+nav{
+    font-family: 'Inter';
+    text-transform: uppercase;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.navbar-brand:link, .navbar-brand:visited, .navbar-brand:active{
+    color: #93776C;
+}
+
+.navbar-brand:hover{
+ color: #D0A88B;
+ transition:.6s;
+}
+.nav-link:link, .nav-link:active{
+    color: #E1E6E3;
+    font-size: 16px;
+}
+.nav-link:hover{
+    color: #93776C;
+}
+.nav-link:visited{
+    color: #683B21;
+}
+.navbar{
+    background-color: #000000;
+}
+
+span {
+    content: '\\00AE';
+ }
+
+
+/*---  Fim das Configurações da Nav-Bar  ---*/
+.hero{
+    background-image: url(../img/exposicoes/BackgroundHero.png);
+    background-position: center center;
+    background-size: cover;
+    object-fit: cover;
+    height: 100vh;
+    color: #E1E6E3;
+}
+.hero h1 {
+    font-size: clamp(2rem, 10vw, 4rem);
+}
+
+/* BackgroundHero */
+
+
+/* Configurações do header e 1º página */
+
+.p-portfolio{
+    letter-spacing: .03em;
+}
+.p-sub-title{
+    font-size: clamp(.7em, 1.5vw, 1.1em);
+}
+.p-data{
+    font-size: clamp(1.8em, 1.5vw, 2em);
+}
+/* Fim das configurações do header e 1º página */
+
+/*-- Configurações sobre --*/
+
+
+/*-- Fim das configurações sobre --*/
+
+
+/*--  Configurações da section-3  --*/
+#section-3{
+    background-image: url(../img/rafael/Union.svg) ;
+    
+}
+#section-3 .headline{
+    color: #3C2720;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.73px;
+}
+#section-3 .subheadline{
+    color: #3C2720;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.36px;
+}
+#section-3 p{
+    color: #3C2720;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.36px;
+}
+
+/*--  Fim da section-3  --*/
+#sobre{
+    background: linear-gradient(180deg, #000000 0.15%, #000000 5.02%, rgba(0, 0, 0, 0) 41.67%);
+    
+}
+
+#sobre h2 {
+    color: #3C2720;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+#sobre h3 {
+    color: #3C2720;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.36px;
+}
+.p-sobre {
+    color: #34342D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: justify;
+}
+.text-section-3{
+    text-align:justify;
+}
+.dados-numericos{
+    color: #D0A88B;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+}
+.dados-numericos-p{
+    color: #683B21;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+}
+
+#precos{
+    background-color:#1E1919;
+    color: white;
+}
+#precos .headline{
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.73px;
+}
+#precos .subheadline{
+    color: #FFF;
+    font-size: clamp(1.3rem, 1.8vw, 1.8rem);
+    font-weight: 700;
+    line-height: 29px;
+}
+.td-p{
+    font-size: clamp(1rem, 1.4vw, 1.6rem);
+}
+.card-img{
+    max-width: 40vw;
+    max-height: 40vh;
+    border-radius: 50%;
+}
+
+#galeria .headline{
+    color: #000000;
+    font-size: clamp(1.7rem, 4vw, 2.5rem);
+    font-weight: 700;
+    line-height: 38.73px;
+}
+#galeria .subheadline{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+#galeria .headline-card{
+ 
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.73px;
+}
+#galeria .subheadline-card{
+   
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+.frame-card{
+   color: #000000;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 26px;
+}
+#galeria a:link{
+    text-decoration: none;
+}
+
+.card{
+    padding: 0%;
+    margin: 0%;
+    border: none;
+}
+#exposicoes{
+    height: auto;
+    background-image: url(../img/rafael/Union.png);
+    background-repeat: no-repeat;
+}
+#exposicoes .headline{
+    color: #31211B;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.73px;
+}
+#exposicoes .subheadline{
+    color: #251813;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+#exposicoes a:link{
+    text-decoration: none;
+    color: #000000;
+}
+#exposicoes a:hover{
+    color:#93776C;
+}
+#exposicoes a:visited{
+    color:#c56c48;
+}
+#exposicoes .pointer, #galeria .pointer{
+    cursor: pointer;
+}
+
+
+#depoimentos .headline{
+    color: #3C2720;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.73px;
+}
+.bg-linear-d{
+    background:  linear-gradient(180deg, #000000 7.38%, #1E1919 19.25%, rgba(158, 144, 129, 0) 53.42%);
+}
+
+ .depoimento{
+  
+    text-align: justify;
+}
+.ensaio, .ano,  .depoimento{
+    font-size: 15px;
+    color: #000000;
+}
+.nome{
+    font-size: 18px;
+    color: #000000;
+}
+
+.depoimento-img {
+    /* Ajuste o tamanho da imagem conforme necessário */
+    position: relative;
+    top: -95px;
+    z-index: 1;
+  }
+  
+  #contato{
+    height: 90vh;
+    background-image: url(../img/img-contato.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+.headline-contato{
+    color: #E1E6E3;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.73px;
+}
+.subheadline-contato{
+    color: #E1E6E3;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+footer{
+    background-color: #18191B;
+    height:auto;
+}
+
+footer a:link{
+    color: #E1E6E3;
+    text-decoration: none;
+}
+footer a:hover{
+    color:#c56c48;
+}
+footer a:visited{
+    color:#683B21;
+}
+
+
+.hero-icon-animation{
+	color: #d4bfc1;
+	transform: translateY(0px);
+	animation: hero-icon 3.5s ease-in-out infinite;
+}
+@keyframes hero-icon{
+	0% {
+		transform: translateY(0px);
+	}
+	50% {
+		transform: translateY(-5px);
+	}
+	100%{
+		transform: translateY(0px);
+	}
+}
+
+
+
+  
+  /* Restante do CSS do popup */
+  
+.carousel-indicators .button-radius-carousel{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-bottom: -5px;
+}
+.carousel-caption p{
+    font-size: clamp();
+}
+.carousel-caption p, h4{
+    color:#f4f4f5;
+    margin: 0;
+    font-weight: 500;
+    text-align: left;
+    line-height: normal;
+}
+
+
+.open-popup-streat{
+    cursor: pointer;
+}
+.btn-close{
+    z-index: 15;
+}
+.modal-content{
+    width: 60vw;
+    background:none;
+    border: none;
+    
+}
+.modal-dialog{
+       
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    display: flex;
+    
+    width: 60vw;
+    background:none;
+    border: none;
+}
+.carousel-item img{
+    width: 60vw;
+    border-radius: 9px;
+}
