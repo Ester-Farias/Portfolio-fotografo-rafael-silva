@@ -1,5 +1,7 @@
-<h1 align="center">
+
 <img src="img/Gif-Index.gif">
+
+<h1 align="center">
 <p>Freeze the ephemeral and awaken emotions<br> 
     Congelar o efêmero e despertar emoções
 </p>
