@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="img/Gif-Index.gif">
+    (img/Gif-Index.gif)
     <p>Freeze the ephemeral and awaken emotions<br> 
     Congelar o efêmero e despertar emoções</p>
 </h1>
