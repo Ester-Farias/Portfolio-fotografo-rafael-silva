@@ -1,7 +1,8 @@
 <h1 align="center">
-    (img/Gif-Index.gif)
-    <p>Freeze the ephemeral and awaken emotions<br> 
-    Congelar o efêmero e despertar emoções</p>
+<img src="img/Gif-Index.gif">
+<p>Freeze the ephemeral and awaken emotions<br> 
+    Congelar o efêmero e despertar emoções
+</p>
 </h1>
 <h3 align="center"><a href="#">See the project here!<br>
 Veja o projeto aqui!</a></h3>
